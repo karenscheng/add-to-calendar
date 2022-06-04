@@ -34,20 +34,6 @@ const useOpenState = (initialOpen: boolean): [boolean, OpenStateToggle] => {
   const [open, setOpen] = useState<boolean>(initialOpen);
   const onToggle = () => setOpen(current => !current);
 
-  useEffect(
-    () => {
-      if (open) {
-        const onClose = () => setOpen(false);
-        document.addEventListener("click", onClose);
-
-        return () => document.removeEventListener("click", onClose);
-      }
-
-      return undefined;
-    },
-    [open, setOpen]
-  );
-
   return [open, onToggle];
 };
 
