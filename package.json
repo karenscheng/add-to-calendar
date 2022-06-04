@@ -15,14 +15,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CultureHQ/add-to-calendar.git"
+    "url": "git+https://github.com/karenscheng/add-to-calendar.git"
   },
   "author": "Kevin Deisz",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/CultureHQ/add-to-calendar/issues"
-  },
-  "homepage": "https://github.com/CultureHQ/add-to-calendar#readme",
+  "homepage": "https://github.com/karenscheng/add-to-calendar#readme",
   "peerDependencies": {
     "react": ">= 16.8",
     "react-dom": ">= 16.8"
